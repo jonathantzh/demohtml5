@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>demo.html</title>
+        <meta charset="utf-8"/>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+</head>
+
+<body>
+    <fieldset>
+    <img id=picture src=peacock.jpg alt="Peacocks rule the world!"
+        height=500px
+        width=500px>
+
+    <p id=caption>The Royal Majesty</p>
+    
+    <button type="button"
+           id=changePic
+           onclick = "changePic()">
+           Change My Picture!
+    </button>
+    </fieldset>
+                    
+    <h1> Hi. I am a peacock... a<span class=emphasis> fluttering
+    </span> peacock.</h1>
+
+           
+    <p>My loves:
+    <ul>
+        <li>Eating chicken.</li>
+        <li>Waddling around.</li>
+        <li><span id=id=emphasis>Flying.</span></li>
+    </ul>
+    </p>
+    
+    <p> Alas, I am a peacock... the first flying peacock. What
+    other choice do I have, but to try.</p>
+    <p> Give me <span class=emphasis> 5</span> reasons to
+    <span class=emphasis> fly!</span></p>
+    
+    <input type="text"
+       id="reason"/>
+    
+    <button type="button"
+    onclick = "addReasons()">
+        Submit
+    </button>
+    
+    <button type="button"
+    onclick = "clearReasons()">
+        Clear
+    </button>
+            
+<p> Please relate to aerodynamic principles formulated by the
+Wright Brothers. I am their biggest fan.</p>
+
+<div id="divOutput" class=reasons>
+</div>
+
+</body>
+</html>
